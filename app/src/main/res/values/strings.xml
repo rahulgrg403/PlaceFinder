@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">registration</string>
+    <string-array name="property">
+        <item>Room</item>
+        <item>Flat</item>
+        <item>Bunglow</item>
+        <item>Godown</item>
+    </string-array>
+</resources>

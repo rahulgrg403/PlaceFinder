@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/profileactivity"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="prakash.registration.profileActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:src="@drawable/pback"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+		<de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="148dp"
+            android:src="@drawable/dpimg"
+			app:civ_border_color="#FFF"
+			/>
+        <ImageButton
+            android:id="@+id/chngimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="-40dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/came"
+            />
+        <TextView
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:text="large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLogout"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="70dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="LogOut" />
+
+            <Button
+                android:id="@+id/buttondelete"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="DELETE ACCOUNT" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

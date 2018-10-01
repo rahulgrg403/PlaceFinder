@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="prakash.registration">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconn"
+        android:label="PlaceFinder"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".login" />
+        <activity android:name=".profileActivity" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".Menu" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".addpost" />
+        <activity android:name=".Chat" />
+        <activity android:name=".search" />
+        <activity android:name=".Ticktacktoe" />
+        <activity android:name=".delete" />
+        <activity android:name=".result"></activity>
+    </application>
+
+</manifest>

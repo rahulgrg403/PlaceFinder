@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="prakash.registration.Ticktacktoe">
+
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:background="@drawable/games"
+    android:layout_height="120dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1: 0"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/com_facebook_messenger_blue"
+        android:textSize="30sp"
+        android:id="@+id/text_view_p1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 2: 0"
+        android:textColor="@color/com_facebook_messenger_blue"
+        android:textSize="30sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="12dp"
+        android:id="@+id/text_view_p2"
+        android:layout_below="@id/text_view_p1"/>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text_view_p1"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="13dp"
+        android:background="@color/authui_colorActivated"
+        android:text="Reset"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/com_facebook_blue"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_00"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_01"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_02"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/com_facebook_blue"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_10"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_11"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_12"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="@color/com_facebook_blue"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_20"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_21"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="60sp"
+        android:id="@+id/button_22"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_weight=".5"
+    android:background="@drawable/footers"
+    android:layout_height="50dp">
+
+</LinearLayout>
+</LinearLayout>
+
